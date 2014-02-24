@@ -83,7 +83,7 @@ THE SOFTWARE.
 
 // Menu Layer Helpers
 #define menu_layer_create_fullscreen(window) menu_layer_create(layer_get_bounds(window_get_root_layer(window)))
-#define menu_layer_add_to_window(layer, window) layer_add_child(window_get_root_layer(window), menu_layer_get_layer(layer))
+#define menu_layer_add_to_window(layer, window) layer_add_child(window_get_root_layer(window), menu_layer_get_layer(layer)); menu_layer_set_click_config_onto_window(layer, window)
 #define menu_layer_reload_data_and_mark_dirty(layer) menu_layer_reload_data(layer); layer_mark_dirty(menu_layer_get_layer(layer));
 
 // Simple Menu Layer Helpers
