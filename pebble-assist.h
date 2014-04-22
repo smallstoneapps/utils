@@ -121,6 +121,6 @@ THE SOFTWARE.
 #define app_message_open_max() app_message_open(app_message_inbox_size_maximum(), app_message_outbox_size_maximum())
 
 // Persistence Helpers
-#define persist_read_int_safe(key, value) if (persist_exists(key)) { return persist_read_int(key); } else { return value; }
-#define persist_read_bool_safe(key, value) if (persist_exists(key)) { return persist_read_bool(key); } else { return value; }
+#define persist_read_int_safe(key, value) (persist_exists(key) ? persist_read_int(key) : value);
+#define persist_read_bool_safe(key, value) (persist_exists(key) ? persist_read_bool(key) : value);
 
