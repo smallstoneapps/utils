@@ -2,7 +2,19 @@
 
 Pebble Assist is a small collection of [C macros][1] that make developing Pebble apps a little simpler.
 
-## Logging
+## Usage
+
+Download the contents of this repository, or clone it as a submodule or subtree. I recommend having a libs subfolder in your Pebble app's src folder.
+
+Include pebble-assist.h in your source code.
+
+```c
+#include "libs/pebble-assist/pebble-assist.h"
+```
+
+## Documentation
+
+### Logging
 
 Shorthand wrappers for using APP_LOG with the various levels of logs.
 
@@ -11,7 +23,7 @@ Shorthand wrappers for using APP_LOG with the various levels of logs.
 DEBUG("Here is a logging message of value %d", 5);
 ```
 
-## Layer Helpers
+### Layer Helpers
 
 There are a number of macros for creating layers, and the various subtypes of layers. Below are some examples, check out the source code for the full list.
 
@@ -41,7 +53,7 @@ layer_hide(layer);
 ```
 
 
-## Persistent Helpers
+### Persistent Helpers
 
 Check that a persistent key exists before reading it, and returning a default value if it doesn't.
 
@@ -50,7 +62,7 @@ Check that a persistent key exists before reading it, and returning a default va
 int number = persist_read_int_safe(KEY_NUMBER, -1);
 ```
 
-## Miscelleanous
+### Miscelleanous
 
 ```c
 // Checks that data is not NULL before attempting to free.
