@@ -1,0 +1,13 @@
+{
+  "name": "pebble-assist",
+  "version": "0.2.3",
+  "includes": [ "." ],
+  "sources": [ ],
+  "js": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smallstoneapps/pebble-assist.git"
+  },
+  "author": "Matthew Tole <pebble@matthewtole.com>",
+  "license": "MIT"
+}
