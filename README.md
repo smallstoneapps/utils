@@ -4,6 +4,8 @@ This is a small collection of [C macros][1] that make developing Pebble apps a l
 
 ## Usage
 
+> **This feature is not yet available in the Pebble Tool.**
+
 You can use the new Pebble Tool to install the library from NPM.
 
 ```
