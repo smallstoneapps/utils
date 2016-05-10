@@ -1,21 +1,21 @@
 {
-  "name": "pebble-assist",
-  "version": "1.0.3",
-  "description": "Pebble Assist is a small collection of [C macros][1] that make developing Pebble apps a little simpler.",
-  "main": "include/pebble-assist.h",
+  "name": "@smallstoneapps/utils",
+  "version": "1.1.0",
+  "description": "A small collection of [C macros][1] that make developing Pebble apps a little simpler.",
+  "main": "include/macros.h",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smallstoneapps/pebble-assist.git"
+    "url": "git+https://github.com/smallstoneapps/utils.git"
   },
   "author": "Matthew Tole <pebble@matthewtole.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/smallstoneapps/pebble-assist/issues"
+    "url": "https://github.com/smallstoneapps/utils/issues"
   },
-  "homepage": "https://github.com/smallstoneapps/pebble-assist#readme",
+  "homepage": "https://github.com/smallstoneapps/utils#readme",
   "pebble": {
     "uuid": "3ee0504a-6e63-4b41-ab91-c66c73be3407",
     "sdkVersion": "3",
