@@ -1,6 +1,6 @@
 {
   "name": "pebble-assist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pebble Assist is a small collection of [C macros][1] that make developing Pebble apps a little simpler.",
   "main": "include/pebble-assist.h",
   "scripts": {
