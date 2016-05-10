@@ -1,7 +1,7 @@
 {
   "name": "@smallstoneapps/utils",
-  "version": "1.1.0",
-  "description": "A small collection of [C macros][1] that make developing Pebble apps a little simpler.",
+  "version": "1.1.1",
+  "description": "A small collection of C macros that make developing Pebble apps a little simpler.",
   "main": "include/macros.h",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
