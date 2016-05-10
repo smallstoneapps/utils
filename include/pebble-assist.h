@@ -45,7 +45,7 @@ static const bool SHOW_POINTERS = false;
 #endif
 
 #ifndef PEBBLE_WIDTH
-#define PEBBLE_WIDTH BL_IF_RECT_ELSE(144, 180)
+#define PEBBLE_WIDTH PBL_IF_RECT_ELSE(144, 180)
 #endif
 
 #ifndef STATUS_HEIGHT
