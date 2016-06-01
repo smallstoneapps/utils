@@ -1,6 +1,6 @@
 {
   "name": "@smallstoneapps/utils",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A small collection of C macros that make developing Pebble apps a little simpler.",
   "main": "include/macros.h",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/smallstoneapps/utils#readme",
   "pebble": {
+    "projectType": "package",
     "sdkVersion": "3",
     "targetPlatforms": ["aplite", "basalt", "chalk"]
   },
