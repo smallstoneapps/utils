@@ -1,21 +1,23 @@
-# Utils
+# Utils [![npm (scoped)](https://img.shields.io/npm/v/@smallstoneapps/utils.svg?maxAge=2592000&style=flat-square)](https://www.npmjs.com/package/@smallstoneapps/utils)&nbsp;[![MIT License](http://img.shields.io/badge/license-MIT-lightgray.svg?style=flat-square)](./LICENSE)
 
 This is a small collection of [C macros][1] that make developing Pebble apps a little simpler.
 
+## Installation
+
+*You must be using Pebble SDK 3.12 or newer to use this library.*
+
+To install the package to your app, use the pebble tool:
+
+```
+pebble package install @smallstoneapps/utils
+```
+
 ## Usage
-
-> **This feature is not yet available in the Pebble Tool.**
-
-You can use the new Pebble Tool to install the library from NPM.
-
-```
-npm install --save @smallstoneapps/utils
-```
 
 Include the header file in your source code.
 
 ```c
-#include "@smallstoneapps/utils/macros.h"
+#include <@smallstoneapps/utils/macros.h>
 ```
 
 ## Documentation
