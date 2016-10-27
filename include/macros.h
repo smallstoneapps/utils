@@ -17,11 +17,11 @@ static const bool SHOW_POINTERS = false;
 #endif
 
 #ifndef PEBBLE_HEIGHT
-#define PEBBLE_HEIGHT PBL_IF_RECT_ELSE(168, 180)
+#define PEBBLE_HEIGHT PBL_DISPLAY_HEIGHT
 #endif
 
 #ifndef PEBBLE_WIDTH
-#define PEBBLE_WIDTH PBL_IF_RECT_ELSE(144, 180)
+#define PEBBLE_WIDTH PBL_DISPLAY_WIDTH
 #endif
 
 #ifndef STATUS_HEIGHT
